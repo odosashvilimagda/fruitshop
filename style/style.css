@@ -1,0 +1,385 @@
+.main1{
+    background-image: url(../Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 567px;
+
+
+}
+
+.main1 h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 44px;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.main1h{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.main2nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: #252525;
+    width: 1173px;
+    margin: auto;
+    margin-top: -30px;
+    font-family: 'Poppins';
+}
+
+.main2nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 30px;
+    text-wrap: nowrap;
+    text-align: center;
+    margin-left: 45px;
+   
+}
+
+.main2nav ul li{
+    display: flex;
+    margin-right: 105px;
+    list-style: none;
+    
+}
+
+.main2nav ul li a{
+    color: #fff;
+}
+.main2text{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    align-items: center;
+}
+.main2text h2{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.main2text strong{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.main2text a{
+    background-color: #313131;
+    padding: 20px 55px ;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.main3{
+    display: flex;
+}
+
+.greydiv{
+    width: 796px;
+    height: 619px;
+    background-color:#ececec ;
+    position: relative;
+}
+
+
+
+.greydiv img {
+    position: absolute;
+    margin-top: 39px;
+    margin-left: 60px;
+}
+
+.main3left img{
+    width: 600px;
+    height: 300px;
+    z-index: 1;
+}
+
+.main3right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+
+.main3right h3{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    font-weight: 100;
+
+}
+.main3right p {
+    text-align: center;
+}
+.main3right a{
+    width: 215px;
+    background-color: #313131;
+    padding: 20px 20px ;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+
+.main4{
+    margin-top: 200px;
+}
+
+.main4header{
+    font-size: 35px;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+
+
+.main4header{
+    display: flex;
+    align-items: center;
+}
+
+.fresh-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+
+.main4header span::before{
+    content: "";
+    width: 300px;
+    height: 1px;
+    background-color: #000;
+    display: block;
+    margin-right: 50px;
+}
+
+.orangeimg:hover{
+    background-color: #1a1a1b;
+    opacity: 0,2;
+}
+
+.main5 p, .main5 strong{
+    font-family: 'Roboto';
+    color: #1a1a1b;
+    /* line-height: 20px; */
+    text-align: center;
+}
+
+.overlay h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.overlay button{
+    margin-top: 20PX;
+    background-color: transparent;
+    padding: 15px 45px  ;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.main5 strong{
+    font-size: 19px;
+    margin-top: 20px;
+}
+.main5 p{
+    line-height: 30px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.main5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.main5 h2{
+    font-size: 35px;
+    font-family: 'Roboto';
+    color: #1a1a1b;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.main5 img{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+
+.main6header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.main6header h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    color: #313131;
+}
+
+.main6header span::before{
+    content: "";
+    width: 300px;
+    height: 1px;
+    background-color: #000;
+    display: block;
+    margin-right: 50px;
+}
+
+.main6full{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main6left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.main6  input{
+    width: 500px;
+    height: 56px;
+    margin-bottom: 25px;
+    border: none;
+    box-shadow: -1px 3px 18px -5px rgba(0,0,0,0.55);
+}
+ 
+.main6 a{
+    color: #fff;
+}
+ .main6left button{
+    background-color:#f89e12 ;
+    width: 140px;
+    height: 45px;
+    align-items: center;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    
+ }
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+
+  .image-container:hover .image {
+    transform: scale(1.1);
+  }
+
+
+  .main7{
+    margin-top: 50px;
+    background-color: #2e2e2e;
+  }
+
+  .main7-header{
+   
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .main7-list{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .entermail{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 60px;
+  }
+
+  .entermail input {
+    width: 515px;
+    height: 50px;
+    text-transform: uppercase;
+    /* margin-left: 10px; */
+  }
+
+  .entermail a{
+    background-color: #f89e12;
+    color: #ececec;
+    padding:  15px 100px;
+    margin-left: -6px;
+    margin-top: 2px;
+  }
+
+  .entermail form{
+    overflow: hidden;
+  }
+
+  .entermail img{
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+.main8 span{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+  
